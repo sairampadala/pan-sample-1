@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.form_header{
+    text-align: center;
+    background-color: darkred;
+}
+.header_main-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.header_sub-text{
+    font-size: 14px;
+    font-style: italic;
+}
+table, th, td {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightyellow;
+}
+.form_sub-table{
+    border: none;
+} 
+.form_sub-table td{
+    border: none;
+    border-right: 1px solid black;
+}
+.form_checkbox{
+    width: 25px;
+}
+.form_question{
+    margin-right: 50px;
+    display: initial;
+    font-weight: 600;
+}
+.form_radio_button{
+    margin-right: 20px;
+}
+.mandatory_blue{
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+}
+.full_name-block{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
+}
+.full_name{
+    flex: 1;
+}
+.paper_less_pan{
+    background-color: lightgoldenrodyellow;
+}
+.form_upload_fields{
+    display: flex;
+}
+.form_upload_fields div{
+    flex: 1;
+}
+.color{
+    background-color: orangered;
+}
+.star{
+    background-color: darkred;
+}
